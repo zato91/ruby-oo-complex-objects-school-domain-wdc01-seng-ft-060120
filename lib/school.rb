@@ -10,13 +10,14 @@ attr_accessor :roster
 
   
  def add_student(name, grade)
- 
+ if @ros
    @roster[:grade]  = []
     @roster[:grade]  << name 
   
  end 
  
  def grade(grade)
+   @roster[grade]
  end 
  
  def sort
