@@ -23,8 +23,8 @@ attr_accessor :roster
  def sort
    
    @roster.each do |key,value|
-     value.sort
-     binding.pry
+     key  = value.sort
+     
    end 
    
  end 
