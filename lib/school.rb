@@ -10,7 +10,7 @@ attr_accessor :roster
 
   
  def add_student(name, grade)
- 
+ if  @roster[grade] 
    @roster[grade]  = []
     @roster[grade]  << name 
   
