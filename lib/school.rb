@@ -22,11 +22,10 @@ attr_accessor :roster
  
  def sort
    
-x =   @roster.each do |key,value|
-    value.sort
-     
-   end 
-   x
+  @roster.each do |key,value|
+  @roster[key] = value.sort
+  end 
+   
  end 
  
 end 
