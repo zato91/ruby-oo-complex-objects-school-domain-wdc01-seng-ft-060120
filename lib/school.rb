@@ -21,6 +21,7 @@ attr_accessor :roster
  end 
  
  def sort
+   binding.pry
    @roster.keys = @roster.values.sort
  end 
  
