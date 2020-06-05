@@ -11,8 +11,8 @@ class School
   
   binding.pry
  def add_student(name, grade)
-   self.roster[:grade] = []
-   self.roster[:grade]  << name 
+ 
+   roster[:grade]  << name 
   
  end 
  
