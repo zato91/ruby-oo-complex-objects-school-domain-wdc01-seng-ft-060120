@@ -4,12 +4,11 @@ class School
 
   def initialize(name)
     @name = name 
+    @roster = {}
   end
   
   
-  def roster
-    roster_hash = {}
-  end 
+  
   binding.pry
  def add_student(name, grade)
    self.roster[:grade] = []
