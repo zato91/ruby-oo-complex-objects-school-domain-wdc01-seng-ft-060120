@@ -21,7 +21,7 @@ attr_accessor :roster
  end 
  
  def sort
-   
+   binding.pry
   @roster.each do |key,value|
   @roster[key] = value.sort
   end 
