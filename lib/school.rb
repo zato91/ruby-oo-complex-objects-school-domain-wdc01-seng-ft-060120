@@ -21,7 +21,7 @@ attr_accessor :roster
  end 
  
  def sort
-   @roster.values.sort
+   @roster[grade] = @roster.values.sort
  end 
  
 end 
